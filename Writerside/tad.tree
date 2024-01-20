@@ -4,7 +4,9 @@
 
 <instance-profile id="tad"
                  name="Third Alpha | Database"
-                 start-page="Get-Started.md">
+                 start-page="Overview.md">
 
+    <toc-element topic="Overview.md"/>
     <toc-element topic="Get-Started.md"/>
+    <toc-element topic="Assignment.md"/>
 </instance-profile>

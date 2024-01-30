@@ -7,6 +7,11 @@
                  start-page="Overview.md">
 
     <toc-element topic="Overview.md"/>
-    <toc-element topic="Get-Started.md"/>
-    <toc-element topic="Assignment.md"/>
+    <toc-element topic="Analysis.md">
+        <toc-element topic="Requirements.md"/>
+    </toc-element>
+    <toc-element topic="Get-Started.md">
+        <toc-element topic="Client-app-set-up.md"/>
+        <toc-element topic="Database.md"/>
+    </toc-element>
 </instance-profile>

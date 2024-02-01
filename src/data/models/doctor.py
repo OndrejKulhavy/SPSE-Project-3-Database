@@ -21,3 +21,6 @@ class Doctor:
         self.phone = phone
         self.email = email
         self.specialization_id = specialization_id
+
+    def __str__(self):
+        return f"Doctor {self.id}: {self.title} {self.first_name} {self.middle_name} {self.last_name} {self.phone} {self.email} {self.specialization_id}"

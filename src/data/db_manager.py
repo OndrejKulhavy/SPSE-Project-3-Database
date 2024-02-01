@@ -33,7 +33,7 @@ class DatabaseManager:
         cursor.close()
         return result
 
-    def fetch_one(self, query, params=None):
+    def fetch_one(self, query, params=None) -> object:
         cursor = self.connection.cursor()
         cursor.execute(query, params)
         result = cursor.fetchone()

@@ -1,10 +1,8 @@
-# Client App
+# Setup | Client App
 
 Make sure you have `Python 3.12` or higher installed on your machine. You can check this by running `python --version`
 in your terminal.
 If you don't have Python installed, you can download it [here](https://www.python.org/downloads/).
-
-## Set Up
 
 Clone the repository to your local machine or unzip the file downloaded from Moodle and navigate to the `root` directory
 of the project.
@@ -85,6 +83,3 @@ of the project.
         If the issue persists, please try to run the app in a different virtual environment. Good Luck👍
     </p>
 </note>
-
-
-

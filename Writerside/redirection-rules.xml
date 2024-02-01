@@ -10,4 +10,13 @@
         <description>Created after removal of "About Third Alpha | Database" from Third Alpha | Database</description>
         <accepts>starter-topic.html</accepts>
     </rule>
+    <rule id="4288ed6c">
+        <description>
+            <![CDATA[Created after removal of "<Client-app-set-up.md>" from Third Alpha | Database]]></description>
+        <accepts>Client-app-set-up.html</accepts>
+    </rule>
+    <rule id="2ae9cc8a">
+        <description>Created after removal of "Client App Set-Up" from Third Alpha | Database</description>
+        <accepts>Client-App-Set-Up.html</accepts>
+    </rule>
 </rules>

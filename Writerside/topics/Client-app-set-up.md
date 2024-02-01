@@ -1,7 +1,5 @@
 # Client App
 
-
-
 Make sure you have `Python 3.12` or higher installed on your machine. You can check this by running `python --version`
 in your terminal.
 If you don't have Python installed, you can download it [here](https://www.python.org/downloads/).
@@ -10,6 +8,14 @@ If you don't have Python installed, you can download it [here](https://www.pytho
 
 Clone the repository to your local machine or unzip the file downloaded from Moodle and navigate to the `root` directory
 of the project.
+
+<warning>
+    <p>
+        <b>Do not install packages without virtual environment</b> as it may cause issues with the packages installed on your machine.
+    </p>
+</warning>
+
+
 <tabs group="system">
     <tab title="Windows" group-key="windows">
         <p>Create a virtual environment by running:</p>
@@ -66,3 +72,19 @@ of the project.
         </code-block>
     </tab>
 </tabs>
+
+<note>
+    <p><b>
+    Troubleshooting
+    </b></p>
+    <p>
+        If you encounter any issues, make sure you have followed the steps above correctly 
+        and especially that you have activated the virtual environment.
+    </p>
+    <p>
+        If the issue persists, please try to run the app in a different virtual environment. Good Luck👍
+    </p>
+</note>
+
+
+

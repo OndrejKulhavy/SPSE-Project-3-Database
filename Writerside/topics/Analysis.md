@@ -10,7 +10,7 @@ This app has to fulfill [these requirements](Requirements.md) given by the schoo
 
 The app will be built upon a 3-tier architecture, providing a structured and modular design for optimal performance and scalability.
 
-1. **Presentation Layer**
+1. **User Interface `Presentation Layer`**
    - Utilize the [customTkinter](https://github.com/TomSchimansky/CustomTkinter) library for a user-friendly and customized graphical interface.
    - The GUI will be designed using [Figma](https://www.figma.com/), a collaborative UI/UX design tool.
   

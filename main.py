@@ -1,9 +1,10 @@
 from src.data.db_manager import DatabaseManager
-from src.data.repositories.doctor_repository import DoctorRepo
+from src.logic.app import App
 
 
 def main():
-    raise NotImplementedError
+    db = DatabaseManager()
+    App(db)
 
 
 if __name__ == '__main__':

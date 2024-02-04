@@ -19,4 +19,8 @@
         <description>Created after removal of "Client App Set-Up" from Third Alpha | Database</description>
         <accepts>Client-App-Set-Up.html</accepts>
     </rule>
+    <rule id="2f70aeee">
+        <description>Created after removal of "Logging Out" from Third Alpha | Database</description>
+        <accepts>Logging-Out.html</accepts>
+    </rule>
 </rules>

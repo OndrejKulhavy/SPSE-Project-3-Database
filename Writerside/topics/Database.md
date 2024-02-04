@@ -1,11 +1,10 @@
 # Database
 
-Start typing here...
-
+Here is an entity-relationship diagram of the database used in the Healthcare E-Prescription App.
 
 ```mermaid
 erDiagram
-    DRUG ||--o{ DRUG_FORM : has
+    DRUG ||--o{ DRUG_FORM: has
     DRUG {
         int ID PK
         int FORM FK
@@ -21,7 +20,7 @@ erDiagram
         string NAME
     }
 
-    INSURANCE_COMPANY ||--o{ PATIENT : has
+    INSURANCE_COMPANY ||--o{ PATIENT: has
     INSURANCE_COMPANY {
         int ID PK
         int CODE
@@ -35,7 +34,10 @@ erDiagram
     PATIENT {
         int ID PK
         int INSURANCE_COMPANY_ID FK
-        string NAME
+        string FIRST_NAME
+        string MIDDLE_NAME
+        string LAST_NAME
+        date DATE_OF_BIRTH
         string PHONE
         string EMAIL
         string STREET
@@ -44,7 +46,7 @@ erDiagram
         int PSC
     }
 
-    DOCTOR ||--o{ SPECIALIZATION : specializes
+    DOCTOR ||--o{ SPECIALIZATION: specializes
     DOCTOR {
         int ID PK
         int SPECIALIZATION_ID FK
@@ -52,6 +54,8 @@ erDiagram
         string FIRST_NAME
         string MIDDLE_NAME
         string LAST_NAME
+        date DATE_OF_BIRTH
+        string PASSWORD_HASH
         string PHONE
         string EMAIL
     }
@@ -60,7 +64,7 @@ erDiagram
         string NAME
     }
 
-    PRESCRIPTION ||--o{ PRESCRIPTION_ITEM : has
+    PRESCRIPTION ||--o{ PRESCRIPTION_ITEM: has
     PRESCRIPTION {
         int ID PK
         int PATIENT_ID FK
@@ -74,14 +78,14 @@ erDiagram
         int ID PK
         int PRESCRIPTION_ID FK
         int DRUG_ID FK
-        int QUANTITY 
+        int QUANTITY
         string DOSAGE
         string INSTRUCTIONS
         boolean PICKED_UP
     }
 
-    PRESCRIPTION_ITEM }|--|| DRUG :  "includes"
-    PRESCRIPTION }|--|{ PATIENT : "issued for"
-    PRESCRIPTION }|--|| DOCTOR : "issued by"
+    PRESCRIPTION_ITEM }|--|| DRUG: "includes"
+    PRESCRIPTION }|--|{ PATIENT: "issued for"
+    PRESCRIPTION }|--|| DOCTOR: "issued by"
 
 ```

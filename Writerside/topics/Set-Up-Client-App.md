@@ -71,6 +71,23 @@ of the project.
     </tab>
 </tabs>
 
+### Configuration
+
+<p>
+    Don not forget to fill in the `config.ini` file with the correct values for database connection. If you don't have database set up, please refer to the <a href="Set-Up-Database.md">database setup</a> guide.
+    You can find the `config.ini` file in the `root` directory of the project.
+</p>
+<p>
+    Here is the template for the `config.ini` file:
+</p>
+<code-block lang="ini">
+    [database]
+    host = 
+    user = 
+    password = 
+    schema = e_prescription
+</code-block>
+
 <note>
     <p><b>
     Troubleshooting

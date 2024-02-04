@@ -41,7 +41,7 @@ class DashboardView(customtkinter.CTkToplevel):
                 an instance of the App class which manages the application
         """
         super().__init__()
-        self.title("CustomTkinter complex_example.py")
+        self.title("Dashboard")
         self.geometry(f"{1100}x{580}")
         self.app = app
         self.grid_columnconfigure(1, weight=1)
